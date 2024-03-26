@@ -3,6 +3,10 @@ import tkinter as tk
 from tkinter import messagebox
 
 def check_guess():
+    """
+    a game of number guessing with a GUI from Tkinter. Made simple with the code from the main.py
+    :return:
+    """
     global count
     count += 1
     if count > 10:
@@ -24,9 +28,19 @@ def check_guess():
             update_feedback("Invalid input")
 
 def update_feedback(message):
+    """
+    setting the label text to param:message
+    :param message:
+    :return:
+    """
     feedback_label.config(text=message)
 
 def end_game(message):
+    """
+    Function to end the game and show the Game Over message
+    :param message:
+    :return:
+    """
     choice = True
     if choice:
         choice = False

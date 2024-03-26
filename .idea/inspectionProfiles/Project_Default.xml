@@ -18,6 +18,7 @@
         </value>
       </option>
     </inspection_tool>
+<<<<<<< HEAD
     <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <option name="ignoredErrors">
         <list>
@@ -33,6 +34,8 @@
         </list>
       </option>
     </inspection_tool>
+=======
+>>>>>>> origin/main
     <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredIdentifiers">
         <list>
